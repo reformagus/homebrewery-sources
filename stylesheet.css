@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'OPTIBookmanBoldItaSwashSup';
+    src: url('fonts/OPTIBookmanBoldItaSwashSup.eot');
+    src: url('fonts/OPTIBookmanBoldItaSwashSup.eot?#iefix') format('embedded-opentype'),
+        url('fonts/OPTIBookmanBoldItaSwashSup.woff2') format('woff2'),
+        url('fonts/OPTIBookmanBoldItaSwashSup.woff') format('woff'),
+        url('fonts/OPTIBookmanBoldItaSwashSup.svg#OPTIBookmanBoldItaSwashSup') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
