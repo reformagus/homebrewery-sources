@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'OPTIBookmanBoldItaSwashSup';
-    src: url('fonts/OPTIBookmanBoldItaSwashSup.eot');
-    src: url('fonts/OPTIBookmanBoldItaSwashSup.eot?#iefix') format('embedded-opentype'),
-        url('fonts/OPTIBookmanBoldItaSwashSup.woff2') format('woff2'),
-        url('fonts/OPTIBookmanBoldItaSwashSup.woff') format('woff'),
-        url('fonts/OPTIBookmanBoldItaSwashSup.svg#OPTIBookmanBoldItaSwashSup') format('svg');
+    src: url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/OPTIBookmanBoldItaSwashSup.eot');
+    src: url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/OPTIBookmanBoldItaSwashSup.eot?#iefix') format('embedded-opentype'),
+        url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/OPTIBookmanBoldItaSwashSup.woff2') format('woff2'),
+        url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/OPTIBookmanBoldItaSwashSup.woff') format('woff'),
+        url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/OPTIBookmanBoldItaSwashSup.svg#OPTIBookmanBoldItaSwashSup') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
