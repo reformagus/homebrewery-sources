@@ -9,3 +9,21 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'BookmanSwash';
+    src: url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwash-Bold.woff2') format('woff2'),
+        url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwash-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BookmanSwash';
+    src: url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwash-BoldItalic.woff2') format('woff2'),
+        url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwash-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
