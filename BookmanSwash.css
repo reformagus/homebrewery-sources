@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'BookmanSwash';
+    src: url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwash.eot');
+    src: url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwash.eot?#iefix') format('embedded-opentype'),
+        url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwash.woff2') format('woff2'),
+        url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwash.woff') format('woff'),
+        url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwash.svg#BookmanSwash') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
