@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Bookman Swash ITC Demi';
+    src: url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwashITCDemi.eot');
+    src: url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwashITCDemi.eot?#iefix') format('embedded-opentype'),
+        url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwashITCDemi.woff2') format('woff2'),
+        url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwashITCDemi.woff') format('woff'),
+        url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwashITCDemi.ttf') format('truetype'),
+        url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwashITCDemi.svg#BookmanSwashITCDemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
