@@ -44,6 +44,16 @@
          url('fonts/BookmanSwashSupUpright.ttf') format('truetype');
     font-weight: normal; font-style: normal; font-display: swap;
   }
+  @font-face {
+    font-family: 'Bookman Swash ITC Medium';
+    src: url('fonts/BookmanSwashITCMedium.eot');
+    src: url('fonts/BookmanSwashITCMedium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BookmanSwashITCMedium.woff2') format('woff2'),
+         url('fonts/BookmanSwashITCMedium.woff') format('woff'),
+         url('fonts/BookmanSwashITCMedium.ttf') format('truetype'),
+         url('fonts/BookmanSwashITCMedium.svg#BookmanSwashITCMedium') format('svg');
+    font-weight: normal; font-style: normal; font-display: swap;
+  }
 
   /* ===== layout ===== */
   :root { --bg:#f5f1e8; --card:#fffdf8; --ink:#2b2b2b; --muted:#7a7064; --line:#e2d9c7; --accent:#7a3b2e; }
@@ -77,6 +87,7 @@
   .f-bold { font-family: 'BookmanSwashBold', serif; }
   .f-ital { font-family: 'BookmanSwashBoldItalic', serif; }
   .f-itc  { font-family: 'Bookman Swash ITC Demi', serif; }
+  .f-med  { font-family: 'Bookman Swash ITC Medium', serif; }
   footer { color: var(--muted); font-size: .8rem; text-align: center; margin-top: 1rem; }
 </style>
 </head>
@@ -149,6 +160,19 @@
     <div class="row"><div class="label">Minusculas</div><div class="glyphs low f-itc">a b c d e f g h i j k l m n o p q r s t u v w x y z</div></div>
     <div class="row"><div class="label">Digitos</div><div class="glyphs dig f-itc">0 1 2 3 4 5 6 7 8 9</div></div>
     <div class="row"><div class="label">Amostra</div><div class="glyphs sample f-itc">The quick brown fox &mdash; Reborn</div></div>
+  </section>
+
+  <!-- ITC Medium -->
+  <section class="card">
+    <h2>Bookman Swash ITC Medium</h2>
+    <p class="meta">
+      family: <code>Bookman Swash ITC Medium</code><br>
+      Maiusculas completas. Minusculas faltam <strong>d, g, i</strong>. Digitos completos. (Peso medium, mais leve que a Demi.)
+    </p>
+    <div class="row"><div class="label">Maiusculas</div><div class="glyphs up f-med">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</div></div>
+    <div class="row"><div class="label">Minusculas</div><div class="glyphs low f-med">a b c d e f g h i j k l m n o p q r s t u v w x y z</div></div>
+    <div class="row"><div class="label">Digitos</div><div class="glyphs dig f-med">0 1 2 3 4 5 6 7 8 9</div></div>
+    <div class="row"><div class="label">Amostra</div><div class="glyphs sample f-med">The quick brown fox &mdash; Reborn</div></div>
   </section>
 
   <footer>Bookman Swash specimen &middot; reformagus/homebrewery-sources</footer>
