@@ -1,29 +1,43 @@
+/* ===========================================================================
+   Bookman Swash - cada variante ISOLADA em sua propria font-family.
+   Assim nao ha colisao: voce escolhe o R/glifo exato pelo nome da familia.
+   Todas declaradas como weight:normal / style:normal de proposito, pra que a
+   selecao dependa so do nome da familia (nao do estado bold/italic herdado).
+   =========================================================================== */
+
+/* OPTI "Sup" -> nome interno OPTIBookmanBoldItaSwashSup.
+   Caps swash MUITO ornamentados (o R com floreio em espiral).
+   ATENCAO: e um font "supplement" - so tem capitais decorativos.
+   FALTAM O, Q, Z e quase todas as minusculas. Use apenas em letras
+   capitulares / drop caps, nunca em texto corrido. */
 @font-face {
-    font-family: 'BookmanSwash';
+    font-family: 'BookmanSwashSup';
     src: url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwash.eot');
     src: url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwash.eot?#iefix') format('embedded-opentype'),
         url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwash.woff2') format('woff2'),
         url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwash.woff') format('woff'),
         url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwash.svg#BookmanSwash') format('svg');
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
+/* Bookman Swash Bold -> nome interno BookmanBoldSwash. Alfabeto completo. */
 @font-face {
-    font-family: 'BookmanSwash';
+    font-family: 'BookmanSwashBold';
     src: url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwash-Bold.woff2') format('woff2'),
         url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwash-Bold.woff') format('woff');
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
+/* Bookman Swash Bold Italic -> nome interno BookmanBoldSwashItalic. Alfabeto completo. */
 @font-face {
-    font-family: 'BookmanSwash';
+    font-family: 'BookmanSwashBoldItalic';
     src: url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwash-BoldItalic.woff2') format('woff2'),
         url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwash-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
+    font-weight: normal;
+    font-style: normal;
     font-display: swap;
 }
