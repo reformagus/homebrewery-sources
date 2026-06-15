@@ -45,6 +45,13 @@
     font-weight: normal; font-style: normal; font-display: swap;
   }
   @font-face {
+    font-family: 'BookmanSwashSupUprightHT';
+    src: url('fonts/BookmanSwashSupUprightHT.woff2') format('woff2'),
+         url('fonts/BookmanSwashSupUprightHT.woff') format('woff'),
+         url('fonts/BookmanSwashSupUprightHT.ttf') format('truetype');
+    font-weight: normal; font-style: normal; font-display: swap;
+  }
+  @font-face {
     font-family: 'Bookman Swash ITC Medium';
     src: url('fonts/BookmanSwashITCMedium.eot');
     src: url('fonts/BookmanSwashITCMedium.eot?#iefix') format('embedded-opentype'),
@@ -84,6 +91,7 @@
   .sample{ font-size: 2.1rem; line-height: 1.3; }
   .f-sup  { font-family: 'BookmanSwashSup', serif; }
   .f-upr  { font-family: 'BookmanSwashSupUpright', serif; }
+  .f-ht   { font-family: 'BookmanSwashSupUprightHT', serif; }
   .f-bold { font-family: 'BookmanSwashBold', serif; }
   .f-ital { font-family: 'BookmanSwashBoldItalic', serif; }
   .f-itc  { font-family: 'Bookman Swash ITC Demi', serif; }
@@ -121,6 +129,18 @@
     <div class="row"><div class="label">Maiusculas</div><div class="glyphs up f-upr">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</div></div>
     <div class="row"><div class="label">Digitos</div><div class="glyphs dig f-upr">0 1 2 3 4 5 6 7 8 9</div></div>
     <div class="row"><div class="label">R: italico (OPTI) vs em pe (Upright)</div><div class="glyphs" style="font-size:5rem;"><span class="f-sup">R</span> &nbsp;&rarr;&nbsp; <span class="f-upr">R</span></div></div>
+  </section>
+
+  <!-- OPTI Sup Upright HAND-TUNED -->
+  <section class="card">
+    <h2>OPTI Swash Sup &mdash; Upright HAND-TUNED</h2>
+    <p class="meta">
+      family: <code>BookmanSwashSupUprightHT</code> &middot; deslant nao-uniforme<br>
+      Corpo 100% vertical, mas o <strong>arabesco fica menos desinclinado</strong> (encostado no corpo), pra bater com o alinhamento do arabesco nas referencias R e E. Compare abaixo com a versao upright simples.
+    </p>
+    <div class="row"><div class="label">Maiusculas</div><div class="glyphs up f-ht">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</div></div>
+    <div class="row"><div class="label">Comparacao R &mdash; upright simples vs hand-tuned</div><div class="glyphs" style="font-size:5rem;"><span class="f-upr">R</span> &nbsp;&nbsp; <span class="f-ht">R</span></div></div>
+    <div class="row"><div class="label">Comparacao E &mdash; upright simples vs hand-tuned</div><div class="glyphs" style="font-size:5rem;"><span class="f-upr">E</span> &nbsp;&nbsp; <span class="f-ht">E</span></div></div>
   </section>
 
   <!-- Bold -->

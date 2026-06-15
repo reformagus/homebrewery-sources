@@ -55,3 +55,15 @@
     font-style: normal;
     font-display: swap;
 }
+
+/* OPTI Sup upright HAND-TUNED: deslant nao-uniforme (corpo vertical, arabesco
+   menos desinclinado pra ficar encostado, como na referencia R/E). */
+@font-face {
+    font-family: 'BookmanSwashSupUprightHT';
+    src: url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwashSupUprightHT.woff2') format('woff2'),
+        url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwashSupUprightHT.woff') format('woff'),
+        url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwashSupUprightHT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
