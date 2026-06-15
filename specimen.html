@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bookman Swash - Specimen</title>
+<style>
+  /* ===== fontes (caminhos locais relativos a este arquivo) ===== */
+  @font-face {
+    font-family: 'BookmanSwashSup';
+    src: url('fonts/BookmanSwash.eot');
+    src: url('fonts/BookmanSwash.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BookmanSwash.woff2') format('woff2'),
+         url('fonts/BookmanSwash.woff') format('woff'),
+         url('fonts/BookmanSwash.svg#BookmanSwash') format('svg');
+    font-weight: normal; font-style: normal; font-display: swap;
+  }
+  @font-face {
+    font-family: 'BookmanSwashBold';
+    src: url('fonts/BookmanSwash-Bold.woff2') format('woff2'),
+         url('fonts/BookmanSwash-Bold.woff') format('woff');
+    font-weight: normal; font-style: normal; font-display: swap;
+  }
+  @font-face {
+    font-family: 'BookmanSwashBoldItalic';
+    src: url('fonts/BookmanSwash-BoldItalic.woff2') format('woff2'),
+         url('fonts/BookmanSwash-BoldItalic.woff') format('woff');
+    font-weight: normal; font-style: normal; font-display: swap;
+  }
+  @font-face {
+    font-family: 'Bookman Swash ITC Demi';
+    src: url('fonts/BookmanSwashITCDemi.eot');
+    src: url('fonts/BookmanSwashITCDemi.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BookmanSwashITCDemi.woff2') format('woff2'),
+         url('fonts/BookmanSwashITCDemi.woff') format('woff'),
+         url('fonts/BookmanSwashITCDemi.ttf') format('truetype'),
+         url('fonts/BookmanSwashITCDemi.svg#BookmanSwashITCDemi') format('svg');
+    font-weight: normal; font-style: normal; font-display: swap;
+  }
+  @font-face {
+    font-family: 'BookmanSwashSupUpright';
+    src: url('fonts/BookmanSwashSupUpright.woff2') format('woff2'),
+         url('fonts/BookmanSwashSupUpright.woff') format('woff'),
+         url('fonts/BookmanSwashSupUpright.ttf') format('truetype');
+    font-weight: normal; font-style: normal; font-display: swap;
+  }
+
+  /* ===== layout ===== */
+  :root { --bg:#f5f1e8; --card:#fffdf8; --ink:#2b2b2b; --muted:#7a7064; --line:#e2d9c7; --accent:#7a3b2e; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2.5rem 1.5rem;
+    background: var(--bg); color: var(--ink);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  .wrap { max-width: 1000px; margin: 0 auto; }
+  header h1 { margin: 0 0 .25rem; font-size: 1.7rem; }
+  header p { margin: 0 0 2rem; color: var(--muted); }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 1.5rem 1.75rem; margin-bottom: 1.75rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+  }
+  .card h2 { margin: 0 0 .15rem; font-size: 1.15rem; }
+  .meta { font-size: .8rem; color: var(--muted); margin: 0 0 1.1rem; }
+  .meta code { background:#efe8da; padding: .08em .4em; border-radius: 4px; color: var(--accent); }
+  .warn { color: var(--accent); font-weight: 600; }
+  .row { margin: .85rem 0; }
+  .label { font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: .25rem; }
+  .glyphs { line-height: 1.35; word-spacing: .12em; letter-spacing: .04em; }
+  .up    { font-size: 2.6rem; }
+  .low   { font-size: 2.6rem; }
+  .dig   { font-size: 2.2rem; }
+  .sample{ font-size: 2.1rem; line-height: 1.3; }
+  .f-sup  { font-family: 'BookmanSwashSup', serif; }
+  .f-upr  { font-family: 'BookmanSwashSupUpright', serif; }
+  .f-bold { font-family: 'BookmanSwashBold', serif; }
+  .f-ital { font-family: 'BookmanSwashBoldItalic', serif; }
+  .f-itc  { font-family: 'Bookman Swash ITC Demi', serif; }
+  footer { color: var(--muted); font-size: .8rem; text-align: center; margin-top: 1rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Bookman Swash &mdash; Specimen</h1>
+    <p>Maiusculas, minusculas e digitos de cada variante. Glifos ausentes caem na fonte serif de fallback.</p>
+  </header>
+
+  <!-- OPTI Sup -->
+  <section class="card">
+    <h2>OPTI Swash Sup</h2>
+    <p class="meta">
+      family: <code>BookmanSwashSup</code> &middot; interno: <code>OPTIBookmanBoldItaSwashSup</code><br>
+      <span class="warn">Caps decorativos apenas.</span> Faltam <strong>O, Q, Z</strong> e quase todas as minusculas (so <strong>h, n</strong>). Use so em drop caps / letras capitulares.
+    </p>
+    <div class="row"><div class="label">Maiusculas</div><div class="glyphs up f-sup">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</div></div>
+    <div class="row"><div class="label">Minusculas</div><div class="glyphs low f-sup">a b c d e f g h i j k l m n o p q r s t u v w x y z</div></div>
+    <div class="row"><div class="label">Digitos</div><div class="glyphs dig f-sup">0 1 2 3 4 5 6 7 8 9</div></div>
+    <div class="row"><div class="label">R em destaque</div><div class="glyphs f-sup" style="font-size:5rem;">R R R</div></div>
+  </section>
+
+  <!-- OPTI Sup Upright (deslanted) -->
+  <section class="card">
+    <h2>OPTI Swash Sup &mdash; Upright (em pe)</h2>
+    <p class="meta">
+      family: <code>BookmanSwashSupUpright</code> &middot; derivada da OPTI com ~14.2&deg; de deslant removido<br>
+      Mesmo R ornamentado em espiral, porem <strong>na vertical</strong> em vez de italico. Mesma cobertura limitada: faltam <strong>O, Q, Z</strong> e minusculas. Use em drop caps / letras capitulares.
+    </p>
+    <div class="row"><div class="label">Maiusculas</div><div class="glyphs up f-upr">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</div></div>
+    <div class="row"><div class="label">Digitos</div><div class="glyphs dig f-upr">0 1 2 3 4 5 6 7 8 9</div></div>
+    <div class="row"><div class="label">R: italico (OPTI) vs em pe (Upright)</div><div class="glyphs" style="font-size:5rem;"><span class="f-sup">R</span> &nbsp;&rarr;&nbsp; <span class="f-upr">R</span></div></div>
+  </section>
+
+  <!-- Bold -->
+  <section class="card">
+    <h2>Bookman Swash Bold</h2>
+    <p class="meta">
+      family: <code>BookmanSwashBold</code> &middot; interno: <code>BookmanBoldSwash</code><br>
+      Alfabeto completo (maiusculas, minusculas e digitos).
+    </p>
+    <div class="row"><div class="label">Maiusculas</div><div class="glyphs up f-bold">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</div></div>
+    <div class="row"><div class="label">Minusculas</div><div class="glyphs low f-bold">a b c d e f g h i j k l m n o p q r s t u v w x y z</div></div>
+    <div class="row"><div class="label">Digitos</div><div class="glyphs dig f-bold">0 1 2 3 4 5 6 7 8 9</div></div>
+    <div class="row"><div class="label">Amostra</div><div class="glyphs sample f-bold">The quick brown fox &mdash; Reborn</div></div>
+  </section>
+
+  <!-- Bold Italic -->
+  <section class="card">
+    <h2>Bookman Swash Bold Italic</h2>
+    <p class="meta">
+      family: <code>BookmanSwashBoldItalic</code> &middot; interno: <code>BookmanBoldSwashItalic</code><br>
+      Alfabeto completo (maiusculas, minusculas e digitos).
+    </p>
+    <div class="row"><div class="label">Maiusculas</div><div class="glyphs up f-ital">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</div></div>
+    <div class="row"><div class="label">Minusculas</div><div class="glyphs low f-ital">a b c d e f g h i j k l m n o p q r s t u v w x y z</div></div>
+    <div class="row"><div class="label">Digitos</div><div class="glyphs dig f-ital">0 1 2 3 4 5 6 7 8 9</div></div>
+    <div class="row"><div class="label">Amostra</div><div class="glyphs sample f-ital">The quick brown fox &mdash; Reborn</div></div>
+  </section>
+
+  <!-- ITC Demi -->
+  <section class="card">
+    <h2>Bookman Swash ITC Demi</h2>
+    <p class="meta">
+      family: <code>Bookman Swash ITC Demi</code><br>
+      Maiusculas completas. Minusculas faltam <strong>d, g, i</strong>. Digitos completos.
+    </p>
+    <div class="row"><div class="label">Maiusculas</div><div class="glyphs up f-itc">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</div></div>
+    <div class="row"><div class="label">Minusculas</div><div class="glyphs low f-itc">a b c d e f g h i j k l m n o p q r s t u v w x y z</div></div>
+    <div class="row"><div class="label">Digitos</div><div class="glyphs dig f-itc">0 1 2 3 4 5 6 7 8 9</div></div>
+    <div class="row"><div class="label">Amostra</div><div class="glyphs sample f-itc">The quick brown fox &mdash; Reborn</div></div>
+  </section>
+
+  <footer>Bookman Swash specimen &middot; reformagus/homebrewery-sources</footer>
+</div>
+</body>
+</html>
