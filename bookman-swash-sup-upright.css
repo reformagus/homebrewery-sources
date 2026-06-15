@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BookmanSwashSupUpright';
+    src: url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwashSupUpright.woff2') format('woff2'),
+        url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwashSupUpright.woff') format('woff'),
+        url('https://rawcdn.githack.com/reformagus/homebrewery-sources/refs/heads/main/fonts/BookmanSwashSupUpright.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
